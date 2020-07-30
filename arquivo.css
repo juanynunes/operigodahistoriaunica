@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;1,700&family=Cutive+Mono&display=swap');
+body{
+  background-color: opacity rgba(240, 240, 240, 0.5);
+  background-image: url("body.jpg.jpg");
+  margin: 30px;
+  text-decoration: none;
+}
+h1{
+  background-image:url("maosdadas.jpg");
+  background-size: cover;
+  font-size: 50px;
+  Text-shadow: 3px 3px 2px #b3b3cc;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border:3px solid #000;
+  margin: auto;
+}
+.grid{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 2px;
+  font-size: 20px;
+  text-align: center;
+  padding: 4px;
+  background-color: #A0A0A0;
+  border: solid #606060;
+  font-family: 'Cutive Mono', monospace;
+  transition: all 0.3s;
+  border-radius: 10px;
+  text-align: center;
+  background-color:#C8C8C8;
+  text-decoration: none;
+}
+.grid > a:hover {
+  background-color:#fff;
+  text-decoration: none;
+  border-radius: 26px;
+}
+#grid{
+  display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 22px;
+border: solid white;
+font-family: 'Cutive Mono', monospace;
+transition: all 0.3s;
+border-radius: 10px;
+text-align: center;
+background-color: #585858;
+text-decoration: none;
+}
+#grid > a:hover {
+  background-color:#fff;
+  text-decoration: none;
+  border-radius: 26px;
+  text-decoration: none;
+}
+#pedagogia{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 4px;
+  font-size: 20px;
+  text-align: center;
+  padding: 6px;
+  background-color:#000066;
+  border: solid #3d5c5c;
+  font-family: 'Cutive Mono', monospace;
+  transition: all 0.5s;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+#pedagogia > a:hover {
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 26px;
+  text-decoration: none;
+}
+.novo{
+  border: 2px solid #ccc;
+  padding: 10px;
+  align-self: flex-start;
+}
+.cartao{
+  border: 2px solid #ccc;
+  padding: 16px;
+  align-self: flex-start;
+}
+.livro{
+    max-width: 50%;
+}
+.referencia{
+  display: inline-block;
+  background-color: #787878;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding:14px 38px;
+  transition: all 0.5s;
+  border-radius: 26px;
+}
+h2{
+  color: white;
+  font-family:  'Cutive Mono', monospace;
+  text-align: center;
+  font-size: 40px;
+}
+  .cabeçalho{
+    border-left: solid #606060;
+  }
+img{
+  display: block;
+  max-width: 80%;
+  border-radius:10px;
+  margin:auto;
+  margin-top: 10px;
+}
+.duas{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:1px;
+  box-sizing: border-box;
+}
+.citacao{
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+}
+iframe{
+  display: block;
+  width: 400px;
+  height: 240;
+  margin: auto;
+}
+p{
+  text-align:left;
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+}
+}
+small {
+  display: center;
+  color: white;
+  text-align: center;
+}
+}
+footer {
+  background-color: pink;
+margin-top:28px;
+border-radius: 10px;
+color: white;
+}
